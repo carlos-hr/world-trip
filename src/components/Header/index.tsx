@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <Flex h="100" justify="center" align="center">
+    <Flex as="header" h="100" justify="center" align="center">
       <Link href="/">
         <Box _hover={{ cursor: "pointer" }}>
           <Image width="180px" height="45px" src="/logo.svg" alt="logo" />
