@@ -1,8 +1,19 @@
-import { Box, Flex, SimpleGrid, Text, Image } from "@chakra-ui/react";
+import {
+  Box,
+  Flex,
+  SimpleGrid,
+  Text,
+  Image,
+  useBreakpointValue,
+} from "@chakra-ui/react";
 import { travelTypes } from "./travelTypes";
 
 const TravelTypes = () => {
   const gridItensLength = travelTypes.length;
+  const isMobile = useBreakpointValue({
+    base: true,
+    lg: false,
+  });
 
   return (
     <Box maxW="1160px" m="auto" mt="20">
