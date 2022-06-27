@@ -4,7 +4,7 @@ import { Banner, ContinentCarousel, Header, TravelTypes } from "../components";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <Box>
       <Header />
       <Banner />
       <TravelTypes />
@@ -14,7 +14,7 @@ const Home: NextPage = () => {
           <ContinentCarousel />
         </Box>
       </Flex>
-    </div>
+    </Box>
   );
 };
 

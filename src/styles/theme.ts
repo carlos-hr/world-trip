@@ -14,5 +14,6 @@ export const theme = extendTheme({
       heading: "Poppins",
       body: "Poppins",
     },
+    color: "gray.500",
   },
 });
