@@ -4,3 +4,4 @@ export { default as ContinentCities } from "./ContinentCities";
 export { default as ContinentInfo } from "./ContinentInfo";
 export { default as Header } from "./Header";
 export { default as TravelTypes } from "./TravelTypes";
+export { default as ContinentBanner } from "./ContinentBanner";

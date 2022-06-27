@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Box, Text, Flex } from "@chakra-ui/react";
-import { slides } from "./slides";
+import { continentInfo } from "../../../continentDb/continentInfo";
 import Link from "next/link";
 
 const Slider = () => {
@@ -16,7 +16,7 @@ const Slider = () => {
         cssMode
         className="swiper"
       >
-        {slides.map((slide, i) => {
+        {continentInfo.map((slide, i) => {
           return (
             <SwiperSlide key={i}>
               <Link href={slide.pageAddress}>
